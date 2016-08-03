@@ -1,0 +1,15 @@
+{
+  "name": "step_1_basic_hello",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "./node_modules/.bin/electron ./main.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "electron-prebuilt": "^1.3.2"
+  }
+}
