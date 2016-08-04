@@ -2,10 +2,6 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 
-// import bootstrap from 'bootstrap';
-// import bootstrapcss from 'bootstrap/dist/css/bootstrap.min.css';
-
-
 const style = {
 }
 
@@ -15,7 +11,7 @@ class App extends React.Component{
   }
 
   componentDidMount() {
-    AppStore.addChangeListener(this._onChange);
+    // AppStore.addChangeListener(this._onChange);
   }
 
   _onChange = () => {

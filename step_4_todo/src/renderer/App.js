@@ -5,6 +5,8 @@ import ReactDOM from 'react-dom';
 // import bootstrap from 'bootstrap';
 // import bootstrapcss from 'bootstrap/dist/css/bootstrap.min.css';
 
+import TodoApp from './components/TodoApp.react';
+
 
 const style = {
 }
@@ -15,7 +17,7 @@ class App extends React.Component{
   }
 
   componentDidMount() {
-    AppStore.addChangeListener(this._onChange);
+    // AppStore.addChangeListener(this._onChange);
   }
 
   _onChange = () => {
@@ -23,9 +25,7 @@ class App extends React.Component{
 
   render(){
     return (
-        <div className="container-fluid" style={style}>
-          Hello Webpack and React :)
-        </div>
+        <TodoApp />
     );
   }
 }
