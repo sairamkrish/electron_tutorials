@@ -1,0 +1,33 @@
+{
+  "name": "step_2_devtron",
+  "version": "1.0.0",
+  "description": "",
+  "main": "main.js",
+  "scripts": {
+    "start": "./node_modules/electron-prebuilt/dist/Electron.app/Contents/MacOS/Electron ./main.js",
+    "watch": "./node_modules/.bin/webpack-dev-server --config webpack-dev-server.config.js --progress --inline --colors"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "babel-core": "^6.11.4",
+    "babel-loader": "^6.2.4",
+    "babel-preset-es2015": "^6.9.0",
+    "babel-preset-react": "^6.11.1",
+    "babel-preset-stage-1": "^6.5.0",
+    "devtron": "^1.3.0",
+    "electron-prebuilt": "^1.3.2",
+    "webpack": "^1.13.1",
+    "webpack-dev-server": "^1.14.1"
+  },
+  "dependencies": {
+    "flux": "^2.1.1",
+    "react": "^15.3.0",
+    "pouchdb": "^5.4.5",    
+    "react-dom": "^15.3.0",
+    "classnames": "^2.1.3",
+    "keymirror": "~0.1.0",
+    "object-assign": "^1.0.0",
+    "react-tap-event-plugin": "^1.0.0"
+  }
+}
